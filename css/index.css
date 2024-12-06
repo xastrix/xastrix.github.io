@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --font-family-sans-serif: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    background-color: #1c1b1b;
+    color: white;
+}
+
+a {
+    color: #2a9fd6;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #1076a7;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff80;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link-active {
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100 25;
+}
+
+.m-3 {
+    margin: 3px;
+}
+
+.card {
+    width: 280px;
+    height: 165px;
+    background-color: #1c1b1b;
+    border: 1px solid #181818;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 2px 5px #00000033;
+    background-image: url("../images/card-background.png");
+}
+
+.repo-stars {
+    float: right;
+}
+
+.card-body {
+    margin: 30px;
+    color: white;
+}
+
+.icon-correct {
+    font-size: 10px;
+    display: inline-flex;
+}
+
+.card-container > .card > .card-body > .repo-name {
+    margin: 0 0 10 0;
+}
+
+.head {
+    text-align: center;
+    margin: 100 20 100;
+}
+
+.fs-bold {
+    font-weight: bold;
+}
+.about-text {
+    background-color: #1f1e1e;
+    border: 1px solid #242323;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.repo-name > a:hover {
+    text-decoration: underline;
+}
+
+.repo-description {
+    color: #d5d5d5;
+    font-size: 12px;
+    line-height: normal;
+    height: 70px;
+    overflow-y: auto;
+}
+
+.social-panel {
+    display: flex;
+    flex-direction: column;
+    right: 0px;
+    top: 230px;
+    padding: 4px 8px;
+    position: fixed;
+    border-top: 1px solid #242323;
+    border-left: 1px solid #242323;
+    border-bottom: 1px solid #242323;
+    background-color: #1c1b1b;
+    z-index: 2000;
+}
+
+.social-panel > div {
+    width: 15px;
+    margin: 0 0 5 0;
+}
+
+.social-panel > div:last-child {
+    margin: unset;
+}
