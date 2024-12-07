@@ -96,12 +96,6 @@ a:hover {
 .fs-bold {
     font-weight: bold;
 }
-.about-text {
-    background-color: #1f1e1e;
-    border: 1px solid #242323;
-    padding: 10px;
-    font-size: 13px;
-}
 
 .repo-name > a:hover {
     text-decoration: underline;
