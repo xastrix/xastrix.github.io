@@ -29,7 +29,7 @@ a:hover { cursor: pointer; color: #1076a7; }
 .repo-description { color: #d5d5d5; font-size: 12px; line-height: normal;
     height: 70px; overflow-y: auto;
 }
-.social-panel { display: flex; flex-direction: column; right: 0px; top: 230px;
+.social-panel { display: flex; flex-direction: column; right: 0px;
     padding: 4px 8px; position: fixed; border-top: 1px solid #242323;
     border-left: 1px solid #242323; border-bottom: 1px solid #242323;
     background-color: #1c1b1b; z-index: 2000;
@@ -47,6 +47,11 @@ a:hover { cursor: pointer; color: #1076a7; }
     .container {
         padding-right: 5%;
         padding-left: 5%;
+    }
+}
+@media (max-width: 576px) {
+    .social-panel {
+        top: 120px;
     }
 }
 .msg-box { background-color: #242424; border-radius: 5px;
