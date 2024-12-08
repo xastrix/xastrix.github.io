@@ -59,7 +59,7 @@ a:hover { cursor: pointer; color: #1076a7; }
 }
 .msg-box { /* background-color: #242424; border-radius: 5px;
     box-shadow: rgb(37 38 38 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px; */
-    width: 100%; height: 155px; font-size: 13px; margin: 0 0 30 0;
+    box-shadow: 0 2px 5px #00000033; width: 100%; height: 155px; font-size: 13px; margin: 0 0 30 0;
 }
 .msg-box:last-child { margin: unset; }
 .msg-box > .content { color: #dfdfdf; /* border-bottom: 1px solid #1c1b1b; */
